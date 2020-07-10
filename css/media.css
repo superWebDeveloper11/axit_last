@@ -218,3 +218,12 @@
     .header__title {
         display: none;
     }
+    
+    .form__text {
+        width: 250px;
+    }
+
+    .textarea_style {
+        width: 250px;
+    }
+}
