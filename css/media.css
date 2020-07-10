@@ -133,6 +133,7 @@
 /* 320 - 480 px */
 @media screen and (max-width: 480px) {
     .header .container {
+        margin-top: 5vh;
         flex-wrap: wrap;
         height: 100%;
         display: flex;

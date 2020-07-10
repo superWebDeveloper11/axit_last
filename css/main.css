@@ -66,7 +66,6 @@ body {
 }
 
 .navigation {
-    position: fixed;
     width: 100%;
     z-index: 10;
     min-height: 8vh;
@@ -77,6 +76,9 @@ body {
     justify-content: center;
 }
 
+.navigation__logo {
+    margin: 10px 0;
+}
 .navigation__logo img {
     height: 35px;
 }
@@ -115,7 +117,6 @@ body {
 /* -------------------------Header Styles------------------------- */
 
 .header {
-    margin-top: 8vh;
     min-height: 76.5vh;
     width: 100%;
     background-image: url(../img/image.jpg);
@@ -125,7 +126,7 @@ body {
 }
 
 .header .container {
-    margin-top: 2vh;
+    margin-top: 15vh;
     height: 100%;
     display: flex;
     align-items: center;
