@@ -1,0 +1,219 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+
+    .section_one__container {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+    .section_three_img img {
+        height: 270px;
+        width: 110%;
+    }
+
+    .section__one_img {
+        display: none;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .header__text {
+        display: none;
+    }
+
+    
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .section__two_img img {
+        display: none;
+    }
+
+    .section__one_text {
+        margin: 0 auto;
+    } 
+
+    .section_three_img {
+        display: none;
+    }
+
+    .section_three_text {
+        margin: 0 auto;
+    }
+
+    .icons svg {
+        height: 30px;
+    }
+
+    .header__trial {
+        border-radius: 3px;
+        height: 250px;
+        width: 250px;
+        background-color: #fff;
+    }
+
+    .trial__input_item {
+        width: 250px;
+        height: 20px;
+        border: none;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .header__title {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        position: relative;
+        font-family: Raleway;
+        color: #fff;
+        font-weight: lighter;
+    }
+
+    .trial__inputs {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 195px;
+        width: 50%;
+    }
+
+    .icons svg {
+        height: 30px;
+        width: 51px;
+        fill: #cccccc;
+        transition: .3s;
+    }
+
+    .socialmedia__title {
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-family: OpenSansSemiboldBold;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    .socialmedia__text {
+        color: #a9aaac;
+        font-family: OpenSansRegular;
+        font-size: 12px;
+    }
+
+    .navigation .navigation__nav {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .navigation .navigation__nav li {
+        font-size: 16px;
+    }
+}
+
+    
+
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    .header .container {
+        flex-wrap: wrap;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__left_block {
+        margin-top: 50px;
+        width: 480px;
+    }
+
+    .header__trial {
+        border-radius: 3px;
+        height: 250px;
+        min-width: 250px;
+        background-color: #fff;
+        margin: 30px auto 70px auto;
+    }
+
+    .socialmedia__text_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 362px;
+    }
+
+    .icons {
+        /* background-color: red; */
+        height: 50px;
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .socialmedia__text {
+        display: none;
+    }
+
+    .socialmedia .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__text {
+        outline: none;
+        max-width: 400px;
+        height: 20px;
+        border: none;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .navigation .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .navigation .navigation__nav {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 40px;
+
+        
+    }
+
+    .navigation .navigation__nav {
+        justify-content: center;
+    }
+
+    .header__left_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__title {
+        display: none;
+    }
