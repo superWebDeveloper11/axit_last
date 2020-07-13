@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="css/media.css">
-  
 </head>
 <body>
     <nav class = 'navigation'>
@@ -265,24 +264,49 @@ C480.224,136.96,497.728,118.496,512,97.248z"/>
             <div class="container">
                 <div class="section_one__container">
                     <div class="tabs">
-                        <div class="tabs__item tabs__orange"><p> Tab 1</p></div>
-                        <div class="tabs__item"><p> Tab 2</p></div>
-                        <div class="tabs__item"><p> Tab 3</p></div>
+                        <div class="tabs__item tabs__orange" data-tab-numb = 'tab1'><p> Tab 1</p></div>
+                        <div class="tabs__item" data-tab-numb = 'tab2'><p> Tab 2</p></div>
+                        <div class="tabs__item" data-tab-numb = 'tab3'><p> Tab 3</p></div>
                     </div>
+                    <div class="section_one__text_container">
+                        <div class="tab1 section_one__text active__text">
+                            <h3 class="section_one__text_title">Tabs with soft transitioning effect.</h3>
+                            <p class="section_one__text_textone">Контент первого таба</p>
+                            <p class="section_one__text_texttwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <button class="section_one__text_btn">
+                                Download
+                            </button>
+                        </div>
 
-                    <div class="section_one__text">
-                        <h3 class="section_one__text_title">Tabs with soft transitioning effect.</h3>
-                        <p class="section_one__text_textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                            penatibus et magnis dis parturient montes.
-                        </p>
-                        <p class="section_one__text_texttwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                            bibendum laoreet.
-                        </p>
-                        <button class="section_one__text_btn">
-                            Download
-                        </button>
+                        <div class="tab2 section_one__text">
+                            <h3 class="section_one__text_title">Tabs with soft transitioning effect.</h3>
+                            <p class="section_one__text_textone">Контент второго таба</p>
+                            <p class="section_one__text_texttwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <button class="section_one__text_btn">
+                                Download
+                            </button>
+                        </div>
+
+                        <div class="tab3 section_one__text">
+                            <h3 class="section_one__text_title">Tabs with soft transitioning effect.</h3>
+                            <p class="section_one__text_textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p class="section_one__text_texttwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <button class="section_one__text_btn">
+                                Download
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="section__one_img wow animate__animated animate__bounceInRight"><img src="img//image_right_u255.png" alt=""></div>
@@ -501,7 +525,7 @@ C480.224,136.96,497.728,118.496,512,97.248z"/>
 
         <article class="main__contactus">
             <div class="container">
-                <h1 class="section__title ">PRICING OPTIONS</h1>
+                <h1 class="section__title ">CONTACT US</h1>
                 <div class="section__line"></div>
                 <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -513,6 +537,9 @@ C480.224,136.96,497.728,118.496,512,97.248z"/>
                     </div>
                     <textarea class = 'textarea_style' name="message" id="contactus__message" placeholder = 'Message' cols="30" rows="10"></textarea>
                 </form>
+                <button class="section_one__text_btn">
+                    Send Messenge
+                </button>
             </div>
         </article>
     </main>
@@ -719,17 +746,17 @@ C480.224,136.96,497.728,118.496,512,97.248z"/>
 
                 <a href=""><svg id = 'icon__wifi'height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m60 512c33.089844 0 61-26.910156 61-60s-27.910156-61-61-61-60 27.910156-60 61 26.910156 60 60 60zm0 0"/><path d="m15 300h30c91.125 0 167 75.871094 167 167v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-124.265625-102.734375-227-227-227h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15zm0 0"/><path d="m15 180h30c157.402344 0 287 129.597656 287 287v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-190.539062-156.460938-347-347-347h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15zm0 0"/><path d="m45 0h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15h30c223.675781 0 407 183.324219 407 407v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-256.8125-210.1875-467-467-467zm0 0"/></svg></a>
             </div>
-            <p class="footer__text">@ 2015 Axure Themes</p>
         </div>
     </footer>
     <script>
 
     </script>
-
+    <script src = 'js/main.js'></script>
     <script src = 'js/jquery-3.5.1.min.js'></script>
     <script src = 'js/wow.min.js'></script>
     <script>
         new WOW().init();
     </script>
+
 </body>
 </html>
