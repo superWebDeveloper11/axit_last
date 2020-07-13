@@ -5,12 +5,10 @@
 
 html {
     min-height: 100%;
-    width: 100%;
 }
 
 body {
     min-height:100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -386,9 +384,19 @@ body {
     background-color: #ff8b38;
 }
 
+
+.section_one__text_container {
+    position: relative;
+}
+
 .section_one__text {
+    display: none;
     margin-left: 100px;
     max-width: 410px;
+}
+
+.active__text {
+    display: block;
 }
 
 .section_one__text_title {
@@ -1002,6 +1010,12 @@ body {
     font-size: 10px;
     color: #5e5e5e;
     font-family: OpenSansRegular;
+}
+
+.main__contactus .section_one__text_btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 200px;
 }
 
 /* @media screen and (max-width: 960px) {
